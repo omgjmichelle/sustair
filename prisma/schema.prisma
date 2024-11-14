@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model PM {
+  humidity    Float
+  pm10        Float
+  pm25        Float
+  pressure    Float
+  temperature Float
+  timestamp   DateTime @unique
+}
+
+model CO {
+  lat       Float
+  lon       Float
+  CO        Float
+  timestamp DateTime @unique
+}

@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "node prisma/seed.js"
+    "seed": "node prisma/seed.js",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.2.1",

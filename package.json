@@ -9,6 +9,7 @@
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
+    "postinstall": "prisma generate",
     "seed": "node prisma/seed.js",
     "build": "prisma generate && <actual-build-command>",
     "vercel-build": "prisma generate && prisma migrate deploy && next build"
@@ -33,6 +34,7 @@
     "lucide-react": "^0.447.0",
     "next": "^14.2.4",
     "next-themes": "^0.3.0",
+    "prisma": "^5.22.0",
     "react": "^18.3.1",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18.3.1",

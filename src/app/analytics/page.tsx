@@ -342,6 +342,8 @@ export default async function analyticPage({
     avgCoRange,
     avgCoRangeFrom,
     avgCoRangeTo,
+    
+
   },
 }: {
   searchParams: {

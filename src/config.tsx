@@ -11,7 +11,7 @@ export const NavItems = () => {
 
   return [
     {
-      name: 'Home',
+      name: 'analytics',
       href: '/',
       icon: <Home size={20} />,
       active: pathname === '/',

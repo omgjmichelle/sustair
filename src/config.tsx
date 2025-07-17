@@ -24,13 +24,7 @@ export const NavItems = () => {
       active: isNavItemActive(pathname, '/analytics'),
       position: 'top',
     },
-    {
-      name: 'map',
-      href: '/map',
-      icon: <Earth size={20} />,
-      active: isNavItemActive(pathname, '/map'),
-      position: 'top',
-    },
+   
     
     {
       name: 'Settings',

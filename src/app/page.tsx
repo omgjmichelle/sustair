@@ -5,7 +5,6 @@ import { useEffect,useState,ReactNode } from 'react';
 import firebase from "firebase/app";
 import  'firebase/database';
 import db from "@/db/db";
-import MyComponent from '@/components/realdata'
 import { Prisma } from "@prisma/client";
 import {
   differenceInDays,

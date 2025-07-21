@@ -37,7 +37,7 @@ import { Button } from '@/components/ui/button';
 import { RANGE_OPTIONS } from '@/lib/rangeoption';
 import { ChartCard } from './component/chartcard';
 import { getUniqPayload } from 'recharts/types/util/payload/getUniqPayload';
-import MyComponent from '@/components/realdata';
+
 
 export const description = "A bar chart"
 

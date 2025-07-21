@@ -26,7 +26,7 @@ export default function RootLayout({
       <head>
         <meta>
         </meta>
-        <title>ESP IoT Firebase App</title>
+        <title>SustAir</title>
         <Script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></Script>
         <Script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></Script>
         <Script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></Script>

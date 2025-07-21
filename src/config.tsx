@@ -12,9 +12,9 @@ export const NavItems = () => {
   return [
     {
       name: 'analytics',
-      href: '/',
+      href: '/analytics',
       icon: <LayoutDashboard size={20} />,
-      active: pathname === '/analytics',
+      active: pathname === '/',
       position: 'top',
     },
 

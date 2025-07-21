@@ -13,19 +13,11 @@ export const NavItems = () => {
     {
       name: 'analytics',
       href: '/',
-      icon: <Home size={20} />,
-      active: pathname === '/',
-      position: 'top',
-    },
-    {
-      name: 'analytics',
-      href: '/analytics',
       icon: <LayoutDashboard size={20} />,
-      active: isNavItemActive(pathname, '/analytics'),
+      active: pathname === '/analytics',
       position: 'top',
     },
-   
-    
+
     {
       name: 'Settings',
       href: '/settings',
